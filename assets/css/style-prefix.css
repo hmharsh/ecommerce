@@ -837,10 +837,11 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
      object-fit: cover;
   -o-object-position: right;
      object-position: right;
+     opacity:.8;
 }
 
 .banner-content {
-  background: hsla(0, 0%, 100%, 0.8);
+  background: rgba(230, 217, 217, .95); /*rgba(255, 255, 255, 0.8);*/
   position: absolute;
   bottom: 25px;
   left: 25px;
@@ -853,7 +854,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .banner-subtitle {
   color: var(--salmon-pink);
   font-size: var(--fs-7);
-  font-weight: var(--weight-500);
+  font-weight: bold;
   text-transform: capitalize;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -2235,10 +2236,16 @@ footer {
 
   .banner-text {
     display: block;
-    color: var(--sonic-silver);
+    color: var(--onyx);
     font-size: var(--fs-7);
     font-weight: var(--weight-500);
     margin-bottom: 10px;
+    animation: blink 1s linear infinite;
+  }
+
+  @keyframes blink{
+    0%{opacity: .5;}
+    100%{opacity: 1;}
   }
 
   .banner-text b { font-size: var(--fs-2); }
