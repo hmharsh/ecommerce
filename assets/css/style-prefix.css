@@ -859,6 +859,13 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   margin-bottom: 10px;
 }
 
+.banner-title-top {
+  color: var(--eerie-black);
+  font-size: var(--fs-5);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
 .banner-title {
   color: var(--eerie-black);
   font-size: var(--fs-1);
