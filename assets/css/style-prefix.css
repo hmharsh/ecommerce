@@ -20,17 +20,17 @@
    * colors
    */
 
-  --spanish-gray: hsl(0, 0%, 60%);
-  --sonic-silver: hsl(0, 0%, 47%);
-  --eerie-black: hsl(0, 0%, 13%);
-  --salmon-pink: hsl(353, 100%, 78%);
-  --sandy-brown: hsl(29, 90%, 65%);
-  --bittersweet: hsl(0, 100%, 70%);
-  --ocean-green: hsl(152, 51%, 52%);
-  --davys-gray: hsl(0, 0%, 33%);
-  --cultured: hsl(0, 0%, 93%);
-  --white: hsl(0, 100%, 100%);
-  --onyx: hsl(0, 0%, 27%);
+   --spanish-gray: rgb(153, 153, 153);
+   --sonic-silver: #787878;
+   --eerie-black: rgb(33, 33, 33);
+   --salmon-pink: #F17424;
+   --sandy-brown: rgb(246, 163, 85);
+   --bittersweet: rgb(255, 102, 102);
+   --ocean-green: rgb(70, 195, 137);
+   --davys-gray: rgb(84, 84, 84);
+   --cultured: rgb(237, 237, 237);
+   --white: rgb(255, 255, 255);
+   --onyx: rgb(69, 69, 69);
 
   /**
    * typography
@@ -100,7 +100,7 @@ img, ion-icon, button, a { display: block; }
 span { display: inline-block; }
 
 html {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", montserrat classic;
   -ms-scroll-chaining: none;
       overscroll-behavior: contain;
 }
@@ -127,7 +127,7 @@ body { background: var(--white); }
  * scrollbar style
  */
 
-body::-webkit-scrollbar { width: 15px; }
+body::-webkit-scrollbar { width: 18px; }
 
 body::-webkit-scrollbar-track {
   background: var(--white);
@@ -136,7 +136,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: hsl(0, 0%, 80%);
-  border: 3px solid var(--white);
+  border: 6px solid var(--white);
   -webkit-border-radius: 10px;
           border-radius: 10px;
 }
@@ -389,7 +389,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
  * NOTIFICATION TOAST 
  */
 
-.notification-toast {
+/* .notification-toast {
   position: fixed;
   bottom: 80px;
   left: 20px;
@@ -512,7 +512,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .toast-meta {
   font-size: var(--fs-10);
   color: var(--sonic-silver);
-}
+} */
 
 
 
@@ -2815,9 +2815,10 @@ footer {
 
   .panel-list-item a:hover { color: var(--salmon-pink); }
 
-  .panel-list-item:not(:last-child) a { padding: 4px 0; }
 
-  .panel-list-item:last-child { margin-top: 20px; }
+  .panel-list-item a { padding: 4px 0; }
+  /* .panel-list-item:not(:last-child) a { padding: 4px 0; } */
+  /* .panel-list-item:last-child { margin-top: 20px; } */
 
   .panel-list-item img {
     width: 100%;

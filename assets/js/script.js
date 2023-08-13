@@ -20,13 +20,15 @@ modalCloseBtn.addEventListener('click', modalCloseFunc);
 const notificationToast = document.querySelector('[data-toast]');
 const toastCloseBtn = document.querySelector('[data-toast-close]');
 
-// notification toast eventListener
-toastCloseBtn.addEventListener('click', function () {
-  notificationToast.classList.add('closed');
-});
+// // notification toast eventListener
+// toastCloseBtn.addEventListener('click', function () {
+//   notificationToast.classList.add('closed');
+// });
 
-
-
+// Enable google translate
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
 
 
 // mobile menu variables
