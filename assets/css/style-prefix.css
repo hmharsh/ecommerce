@@ -78,7 +78,7 @@
 	width:45px;
 	height:45px;
 	bottom:45px;
-	right:40px;
+	right:27px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:30px;
@@ -1119,7 +1119,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .sidebar-submenu-category-list.active {
   padding: 13px 0 8px;
-  max-height: 122px;
+  max-height: 322px;
   visibility: visible;
 }
 
