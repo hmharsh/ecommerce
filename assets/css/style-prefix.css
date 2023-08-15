@@ -1182,14 +1182,14 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .sidebar .showcase-title {
   color: var(--onyx);
-  font-size: var(--fs-7);
-  font-weight: var(--weight-400);
+  font-size: var(--fs-5);
+  font-weight: var(--weight-200);
   text-transform: capitalize;
   overflow: hidden;
   white-space: nowrap;
   -o-text-overflow: ellipsis;
      text-overflow: ellipsis;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.7px;
 }
 
 .sidebar .showcase-rating {
