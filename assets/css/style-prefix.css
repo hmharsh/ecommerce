@@ -77,8 +77,8 @@
 	position:fixed;
 	width:45px;
 	height:45px;
-	bottom:45px;
-	right:27px;
+	bottom:60px;
+	right:35px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:30px;
@@ -1255,7 +1255,13 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
           scroll-snap-type: inline mandatory;
 }
 
-.product-minimal .showcase-container {
+.showcase-container {
+  min-width: 100%;
+  padding: 0 5px;
+  scroll-snap-align: start;
+}
+
+.product-minimal {
   min-width: 100%;
   padding: 0 5px;
   scroll-snap-align: start;
@@ -1568,6 +1574,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   -o-transition: var(--transition-timing);
   transition: var(--transition-timing);
 }
+
+
 
 .product-grid .product-img.default {
   position: relative;
