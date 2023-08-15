@@ -47,7 +47,9 @@
   --fs-9: 0.75rem;
   --fs-10: 0.688rem;
   --fs-11: 0.625rem;
+  --fs-11: 0.618rem;
 
+  --weight-200: 200;
   --weight-300: 300;
   --weight-400: 400;
   --weight-500: 500;
@@ -78,7 +80,7 @@
 	width:45px;
 	height:45px;
 	bottom:60px;
-	right:35px;
+	right:60px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:30px;
@@ -1309,7 +1311,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   width: max-content;
   color: var(--davys-gray);
   font-size: var(--fs-8);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   margin-bottom: 3px;
 }
 
@@ -1664,8 +1666,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 
 .product-grid .showcase-category {
   color: var(--salmon-pink);
-  font-size: var(--fs-9);
-  font-weight: var(--weight-500);
+  font-size: var(--fs-12);
+  font-weight: var(--weight-400);
   text-transform: uppercase;
   margin-bottom: 10px;
 }
